@@ -1,6 +1,6 @@
 import React from 'react';
 
-const App: React.FC = () => {
+const Index: React.FC = () => {
   return (
     <div className={"App"}>
       <div className={"w-full max-w-md mx-auto my-5"}>
@@ -15,4 +15,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default Index;
