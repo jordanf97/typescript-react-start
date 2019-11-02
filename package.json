@@ -1,11 +1,11 @@
 {
-  "name": "Base TypeScript React",
+  "name": "TypeScript_React",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "build:style": "postcss src/styles/index.css -o src/styles/tailwind.css",
     "start": "cross-env NODE_ENV=development npm run build:style && react-scripts start",
-    "build": "npm run build:style && react-scripts build",
+    "build": "cross-env NODE_ENV=production npm run build:style && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
