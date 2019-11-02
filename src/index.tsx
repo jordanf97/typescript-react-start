@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/tailwind.css';
+import './assets/styles/tailwind.css';
 
-import Index from './pages/Index';
+import Index from './pages/index';
 
 ReactDOM.render(<Index />, document.getElementById('root'));
