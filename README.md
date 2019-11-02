@@ -6,6 +6,17 @@ Run `yarn install` to install all required dependancies
 
 Jest is included for testing your components, simply run `yarn test`
 
+# Storybook
+
+Storybook has been included as a conveniance, storybook is useful for creating
+component libraries and internal documentation.
+
+learn more: https://storybook.js.org/
+
+run: `yarn storybook`
+
+or: `yarn build-storybook`
+
 ## Styling
 Tailwindcss is included alongside postss and purgecss for styling
 
